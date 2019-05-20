@@ -1,4 +1,4 @@
-"DVM Revised: Monday, March 11, 2019"					
+"DVM - Cover  Revised: Thursday, April 18, 2019"					
 01          Revision: A					
 					
 Nosherwan Ahmed					
@@ -7,7 +7,7 @@ Nosherwan Ahmed
 					
 					
 					
-"Bill Of Materials          March 11,2019      17:14:07"	Page1				
+"Bill Of Materials          April 18,2019      12:12:42"	Page1				
 					
 Item	Quantity	Reference	Part	Manufacturer	Manufacturer_Part_Number
 ______________________________________________					
@@ -52,7 +52,11 @@ ______________________________________________
 14	1	J8	1050170001	Molex	105017001
 15	2	J9	HEADER 2	Samtec Inc.	TSW-102-07-F-S
 		J10	HEADER 2	Samtec Inc.	TSW-102-07-F-S
-16	11	Q1	NPN BCE	Diodes Incorporated	DNBT8105-7
+16	4	MTG1	M3	N/A	N/A
+		MTG2	M3	N/A	N/A
+		MTG3	M3	N/A	N/A
+		MTG4	M3	N/A	N/A
+17	11	Q1	NPN BCE	Diodes Incorporated	DNBT8105-7
 		Q2	NPN BCE	Diodes Incorporated	DNBT8105-7
 		Q3	NPN BCE	Diodes Incorporated	DNBT8105-7
 		Q4	NPN BCE	Diodes Incorporated	DNBT8105-7
@@ -63,8 +67,8 @@ ______________________________________________
 		Q10	NPN BCE	Diodes Incorporated	DNBT8105-7
 		Q11	NPN BCE	Diodes Incorporated	DNBT8105-7
 		Q12	NPN BCE	Diodes Incorporated	DNBT8105-7
-17	1	Q9	PNP BCE	Diodes Incorporated	DPBT8105-7
-18	8	R1	10k	Yageo	RC0603JR-0710KL
+18	1	Q9	PNP BCE	Diodes Incorporated	DPBT8105-7
+19	8	R1	10k	Yageo	RC0603JR-0710KL
 		R20	10k	Yageo	RC0603JR-0710KL
 		R21	10k	Yageo	RC0603JR-0710KL
 		R22	10k	Yageo	RC0603JR-0710KL
@@ -72,19 +76,19 @@ ______________________________________________
 		R31	10k	Yageo	RC0603JR-0710KL
 		R35	10k	Yageo	RC0603JR-0710KL
 		R40	10k	Yageo	RC0603JR-0710KL
-19	2	R2	100k	Yageo	RC0603FR-07100KL
+20	2	R2	100k	Yageo	RC0603FR-07100KL
 		R5	100k	Yageo	RC0603FR-07100KL
-20	1	R3	390	Yageo	RT0603BRD07390RL
-21	1	R4	1.8M	Yageo	RC0603FR-071M8L
-22	1	R6	180k	Yageo	RT0603BRD07180KL
-23	1	R7	18k	Yageo	RT0603BRD0718KL
-24	1	R8	2k	Yageo	RT0603BRD072KL
-25	1	R9	2.49k	Yageo	RC0603FR-072K49L
-26	4	R10	1.5k	Yageo	RC0603FR-071K5L
+21	1	R3	390	Yageo	RT0603BRD07390RL
+22	1	R4	1.8M	Yageo	RC0603FR-071M8L
+23	1	R6	180k	Yageo	RT0603BRD07180KL
+24	1	R7	18k	Yageo	RT0603BRD0718KL
+25	1	R8	2k	Yageo	RT0603BRD072KL
+26	1	R9	2.49k	Yageo	RC0603FR-072K49L
+27	4	R10	1.5k	Yageo	RC0603FR-071K5L
 		R11	1.5k	Yageo	RC0603FR-071K5L
 		R12	1.5k	Yageo	RC0603FR-071K5L
 		R13	1.5k	Yageo	RC0603FR-071K5L
-27	13	R14	150	Yageo	RC0603FR-07150RL
+28	13	R14	150	Yageo	RC0603FR-07150RL
 		R15	150	Yageo	RC0603FR-07150RL
 		R16	150	Yageo	RC0603FR-07150RL
 		R24	150	Yageo	RC0603FR-07150RL
@@ -97,38 +101,42 @@ ______________________________________________
 		R36	150	Yageo	RC0603FR-07150RL
 		R37	150	Yageo	RC0603FR-07150RL
 		R38	150	Yageo	RC0603FR-07150RL
-28	1	R17	47k	Yageo	RC0603FR-0747KL
-29	2	R18	4.7k	Yageo	RC0603FR-074K7L
+29	1	R17	47k	Yageo	RC0603FR-0747KL
+30	2	R18	4.7k	Yageo	RC0603FR-074K7L
 		R23	4.7k	Yageo	RC0603FR-074K7L
-30	3	R19	27k	Yageo	RC0603FR-0727KL
+31	3	R19	27k	Yageo	RC0603FR-0727KL
 		R29	27k	Yageo	RC0603FR-0727KL
 		R32	27k	Yageo	RC0603FR-0727KL
-31	1	R39	6.8k	Yageo	RC0603FR-076K8L
-32	2	R41	16k	Yageo	RC0603FR-0716KL
+32	1	R39	6.8k	Yageo	RC0603FR-076K8L
+33	2	R41	16k	Yageo	RC0603FR-0716KL
 		R45	16k	Yageo	RC0603FR-0716KL
-33	1	R42	1k	Yageo	RC0603FR-071KL
-34	1	R43	56k	Yageo	RC0603FR-0756KL
-35	1	R44	30k	Yageo	RC0603FR-0730KL
-36	6	R46	140	Yageo	RC0603FR-07140RL
+34	1	R42	1k	Yageo	RC0603FR-071KL
+35	1	R43	56k	Yageo	RC0603FR-0756KL
+36	1	R44	30k	Yageo	RC0603FR-0730KL
+37	6	R46	140	Yageo	RC0603FR-07140RL
 		R47	140	Yageo	RC0603FR-07140RL
 		R48	140	Yageo	RC0603FR-07140RL
 		R49	140	Yageo	RC0603FR-07140RL
 		R50	140	Yageo	RC0603FR-07140RL
 		R51	140	Yageo	RC0603FR-07140RL
-37	1	R52	39k	Yageo	RC0603FR-0739KL
-38	1	TP1	5V+	Keystone Electronics	5029
-39	1	TP2	Power_In	Keystone Electronics	5029
-40	1	TP3	5V-	Keystone Electronics	5029
-41	1	TP4	GND	Keystone Electronics	5029
-42	1	TP5	V_REF_1V2	Keystone Electronics	5029
-43	1	U1	TLC7135	Texas Instruments	TLC7135CDWR
-44	4	U2	TLP175A	Toshiba Semiconductor and Storage	"TLP175A(TPL,E"
+38	1	R52	39k	Yageo	RC0603FR-0739KL
+39	4	R53	0	Yageo	RC0603JR-070RL
+		R54	0	Yageo	RC0603JR-070RL
+		R55	0	Yageo	RC0603JR-070RL
+		R56	0	Yageo	RC0603JR-070RL
+40	1	TP1	5V+	Keystone Electronics	5029
+41	1	TP2	Power_In	Keystone Electronics	5029
+42	1	TP3	5V-	Keystone Electronics	5029
+43	1	TP4	GND	Keystone Electronics	5029
+44	1	TP5	V_REF_1V2	Keystone Electronics	5029
+45	1	U1	TLC7135	Texas Instruments	TLC7135CDWR
+46	4	U2	TLP175A	Toshiba Semiconductor and Storage	"TLP175A(TPL,E"
 		U3	TLP175A	Toshiba Semiconductor and Storage	"TLP175A(TPL,E"
 		U4	TLP175A	Toshiba Semiconductor and Storage	"TLP175A(TPL,E"
 		U5	TLP175A	Toshiba Semiconductor and Storage	"TLP175A(TPL,E"
-45	1	U6	SN74LVC1G32DBVR	Texas Instruments	SN74LVC1G32DBVR
-46	1	U7	SN7447	Texas Instruments	SN7447AN
-47	1	U8	NCP1117ST50T3G	ON Semiconductor	NCP1117ST50T3G
-48	1	U9	MAX1044CSA	Maxim Integrated	MAX1044CSA+
-49	1	U10	MAX8069ESA+	Maxim Integrated	MAX8069ESA+
-50	1	U11	LM311	Texas Instruments	LM311DR
+47	1	U6	SN74LVC1G32DBVR	Texas Instruments	SN74LVC1G32DBVR
+48	1	U7	SN7447	Texas Instruments	SN7447AN
+49	1	U8	NCP1117ST50T3G	ON Semiconductor	NCP1117ST50T3G
+50	1	U9	MAX1044CSA	Maxim Integrated	MAX1044CSA+
+51	1	U10	MAX8069ESA+	Maxim Integrated	MAX8069ESA+
+52	1	U11	LM311	Texas Instruments	LM311DR
